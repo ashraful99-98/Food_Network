@@ -5,6 +5,7 @@
     font-family: Lato;
 }
 body{
+  width: 100vw;
   height: 100vh;
 }
 #header{
@@ -40,8 +41,6 @@ body{
 #order{
   display: flex;
   background: #f4f4f4;
-  background-repeat: no-repeat;
-  overflow: hidden;
 }
 .food{
   width: 50%;
@@ -148,7 +147,8 @@ border-radius: 25px;
     display: flex;
     justify-content: center;
     text-align: center;
-    
+    display: inline-flex;
+     align-items: center;
 }
 #one1{
     width: 60%;
@@ -156,11 +156,10 @@ border-radius: 25px;
     border-radius: 10px;
     box-shadow: 10px 10px 40px gray;
     margin-left: 270px;
-    padding-top: 25px;
-    padding-right: 70px;
+    padding: 20px;
 }
 .one-one div{
-    margin-left: 100px;
+     margin: 0 50px;
 }
 .one-one div h4{
     font-size: 50px;
