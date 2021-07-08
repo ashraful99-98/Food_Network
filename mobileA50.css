@@ -1,13 +1,20 @@
-body{
-    width: 100vw;
-    overflow: inherit;
-}
-.navbar{
-    justify-content: center;
-}
-.navbar ul li{
-    text-align: center;
-}
 .navbar ul li a{
+    font-size: 8px;
     padding: 10px;
+}
+.foods{
+    width: 20%;
+    height: 385px;
+}
+.foods h2{
+   font-size: 14px;
+}
+.one-one{
+   width: 74%;
+}
+.img-logo{
+    height: 20%;
+}
+footer p{
+    font-size: 8px;
 }
