@@ -1,0 +1,13 @@
+body{
+    width: 100vw;
+    overflow: inherit;
+}
+.navbar{
+    justify-content: center;
+}
+.navbar ul li{
+    text-align: center;
+}
+.navbar ul li a{
+    padding: 10px;
+}
